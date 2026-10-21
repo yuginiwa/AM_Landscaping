@@ -1,0 +1,607 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#151512">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="AM Builders">
+  
+  <title>A.M. Builders & Landscaping Services — NFC Contact Card & Portfolio</title>
+  <meta name="description" content="Official NFC Contact Landing Page for A.M. Builders & Landscaping Services. Construction, renovation, interior works, and landscaping in Cavite, Metro Manila & Southern Luzon.">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ambuilderslandscapingservices.vercel.app/">
+  <meta property="og:title" content="A.M. Builders & Landscaping Services | Contact & Portfolio">
+  <meta property="og:description" content="Construction, renovation, interior works, and landscaping. Connect directly with our team or explore our verified portfolio.">
+  <meta property="og:image" content="assets/glass-1.webp">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="A.M. Builders & Landscaping Services | Contact & Portfolio">
+  <meta name="twitter:description" content="Construction, renovation, interiors and landscaping. Direct contact card and verified project portfolio.">
+  <meta name="twitter:image" content="assets/glass-1.webp">
+
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/favicon.png">
+  <link rel="manifest" href="manifest.webmanifest">
+
+  <!-- Typography: Architectural Barlow Condensed & Readable DM Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Structured Schema Data for Search & Digital Assistants -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HomeAndConstructionBusiness",
+    "name": "A.M. Builders & Landscaping Services",
+    "image": "https://ambuilderslandscapingservices.vercel.app/assets/am-logo.png",
+    "telephone": ["+639914650889", "+639695235544"],
+    "email": "ambuilderslandscapingservices@gmail.com",
+    "url": "https://ambuilderslandscapingservices.vercel.app/",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Allegria Phase 1, Brgy. San Francisco",
+      "addressLocality": "General Trias",
+      "addressRegion": "Cavite",
+      "addressCountry": "PH"
+    },
+    "founder": [
+      { "@type": "Person", "name": "Engr. Annalyn Toledo" },
+      { "@type": "Person", "name": "Engr. Cecil Martin Bajaro" }
+    ],
+    "foundingDate": "2021-08",
+    "sameAs": [
+      "https://www.facebook.com/ambuilderslandscapingservices/"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <!-- Clean SVG Icon Sprite -->
+  <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" class="svg-defs">
+    <symbol id="icon-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-7-7 7 7-7 7"/></symbol>
+    <symbol id="icon-phone" viewBox="0 0 24 24"><path d="M22 16.9V20a2 2 0 0 1-2.2 2A19.7 19.7 0 0 1 2 4.2 2 2 0 0 1 4 2h3.1a2 2 0 0 1 2 1.7l.5 3a2 2 0 0 1-.6 1.8L7.2 10a16 16 0 0 0 6.8 6.8l1.5-1.8a2 2 0 0 1 1.8-.6l3 .5A2 2 0 0 1 22 16.9Z"/></symbol>
+    <symbol id="icon-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m3 6 9 7 9-7"/></symbol>
+    <symbol id="icon-pin" viewBox="0 0 24 24"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="icon-download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 17v4h16v-4"/></symbol>
+    <symbol id="icon-chevron" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+    <symbol id="icon-close" viewBox="0 0 24 24"><path d="M5 5 19 19M19 5 5 19"/></symbol>
+    <symbol id="icon-message" viewBox="0 0 24 24"><path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5 9 9 0 0 1-3.9-.9L3 21l1.9-5.4a9 9 0 0 1-.9-4.1A8.5 8.5 0 0 1 12.5 3 8.5 8.5 0 0 1 21 11.5Z"/></symbol>
+    <symbol id="icon-external" viewBox="0 0 24 24"><path d="M13 5h6v6M19 5l-9 9M19 14v5H5V5h5"/></symbol>
+    <symbol id="icon-check" viewBox="0 0 24 24"><path d="m4 12 5 5L20 6"/></symbol>
+    <symbol id="icon-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></symbol>
+    <symbol id="icon-share" viewBox="0 0 24 24"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></symbol>
+    <symbol id="icon-qr" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><path d="M7 17h.01M17 17h.01M7 7h.01M17 7h.01"/></symbol>
+    <symbol id="icon-nfc" viewBox="0 0 24 24"><path d="M6 8a6 6 0 0 1 12 0c0 7-3 9-3 9H9s-3-2-3-9Z"/><path d="M9 9a3 3 0 0 1 6 0c0 4-1.5 5.5-1.5 5.5h-3S9 13 9 9Z"/></symbol>
+  </svg>
+
+  <!-- Sticky Premium Header -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="A.M. Builders & Landscaping Services home">
+        <img src="assets/am-logo.png" alt="A.M. Builders & Landscaping Services official logo" width="300" height="103">
+      </a>
+      <div class="header-actions">
+        <button type="button" class="header-icon-btn" id="header-qr-btn" aria-label="View QR code or share card">
+          <svg class="icon"><use href="#icon-qr"></use></svg>
+        </button>
+        <a href="https://www.facebook.com/ambuilderslandscapingservices/" target="_blank" rel="noopener noreferrer" class="header-social" aria-label="Visit our official Facebook page">
+          <span class="social-f">f</span><span class="header-social-label"> Facebook</span>
+          <svg class="icon tiny"><use href="#icon-external"></use></svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero Section with Architectural Motifs -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-pattern" aria-hidden="true"><span>A</span><span>M</span></div>
+      <div class="container hero-content">
+        <div class="hero-topline-wrap">
+          <div class="hero-topline">
+            <span class="small-dot"></span> CAVITE, PHILIPPINES <span class="line"></span> EST. 2021
+          </div>
+          <div class="nfc-pill" aria-label="NFC digital business card">
+            <span class="nfc-pulse"></span> NFC Digital Card
+          </div>
+        </div>
+
+        <p class="eyebrow light">A.M. BUILDERS & LANDSCAPING SERVICES</p>
+        <h1 id="hero-title">YOUR NEXT PROJECT<br><em>STARTS HERE.</em></h1>
+        <p class="hero-description">Construction, renovation, interior works, and landscaping—handled by a team that understands the work from planning to finishing.</p>
+        
+        <div class="hero-actions">
+          <a class="button button-gold" href="https://m.me/ambuilderslandscapingservices" target="_blank" rel="noopener noreferrer">
+            <svg class="icon"><use href="#icon-message"></use></svg>
+            <span>Message our team</span>
+            <svg class="icon small trailing"><use href="#icon-arrow"></use></svg>
+          </a>
+          <a class="button button-outline-light" href="tel:+639914650889">
+            <svg class="icon"><use href="#icon-phone"></use></svg>
+            <span>Call us</span>
+          </a>
+          <button type="button" class="button button-outline-light button-share-hero" id="hero-share-btn">
+            <svg class="icon"><use href="#icon-share"></use></svg>
+            <span>Share</span>
+          </button>
+        </div>
+        
+        <p class="hero-footnote">Have a project in mind? Tell us what you need and where it is located.</p>
+      </div>
+    </section>
+
+    <!-- 4-Card Quick Contact Action Hub -->
+    <section class="quick-contact container" aria-label="Quick contact and card actions">
+      <a href="contact.vcf" download="AM-Builders-Contact.vcf" class="quick-action" id="save-contact-action">
+        <span class="quick-icon"><svg class="icon"><use href="#icon-download"></use></svg></span>
+        <span class="quick-text">
+          <strong>Save contact</strong>
+          <small>Add directly to phone contacts</small>
+        </span>
+        <svg class="icon quick-arrow"><use href="#icon-chevron"></use></svg>
+      </a>
+
+      <a href="tel:+639914650889" class="quick-action">
+        <span class="quick-icon"><svg class="icon"><use href="#icon-phone"></use></svg></span>
+        <span class="quick-text">
+          <strong>Direct call</strong>
+          <small>+63 991 465 0889</small>
+        </span>
+        <svg class="icon quick-arrow"><use href="#icon-chevron"></use></svg>
+      </a>
+
+      <a href="mailto:ambuilderslandscapingservices@gmail.com?subject=Project%20Inquiry%20-%20A.M.%20Builders" class="quick-action">
+        <span class="quick-icon"><svg class="icon"><use href="#icon-mail"></use></svg></span>
+        <span class="quick-text">
+          <strong>Send an email</strong>
+          <small>For project quotes & inquiries</small>
+        </span>
+        <svg class="icon quick-arrow"><use href="#icon-chevron"></use></svg>
+      </a>
+
+      <button type="button" class="quick-action" id="qr-trigger-card">
+        <span class="quick-icon"><svg class="icon"><use href="#icon-qr"></use></svg></span>
+        <span class="quick-text">
+          <strong>Share / QR Code</strong>
+          <small>Scan or send link on phone</small>
+        </span>
+        <svg class="icon quick-arrow"><use href="#icon-chevron"></use></svg>
+      </button>
+    </section>
+
+    <!-- SECTION 01: WHO WE ARE -->
+    <section class="section intro-section container" aria-labelledby="about-title">
+      <div class="section-topline">
+        <span class="eyebrow">WHO WE ARE</span>
+        <span class="topline-rule"></span>
+        <span class="section-number">01 / 04</span>
+      </div>
+      <div class="intro-grid">
+        <div>
+          <h2 id="about-title">Built on skill.<br><span class="gold-text">Grounded in trust.</span></h2>
+        </div>
+        <div class="intro-copy">
+          <p>Founded in August 2021 in Dasmariñas, Cavite, A.M. Builders & Landscaping Services works on residential and commercial construction, renovations, interiors, and outdoor spaces.</p>
+          <p>Our approach focuses on thoughtful planning, clear communication, workmanship, and practical solutions for every project.</p>
+          <div class="founders-card">
+            <span class="founders-bar"></span>
+            <p class="founders">Founded by <strong>Engr. Annalyn Toledo</strong> and <strong>Engr. Cecil Martin Bajaro</strong>.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="metrics" aria-label="Company highlights">
+        <div class="metric-card">
+          <strong>2021</strong>
+          <small>Established</small>
+        </div>
+        <div class="metric-card">
+          <strong>4</strong>
+          <small>Service groups</small>
+        </div>
+        <div class="metric-card">
+          <strong>2</strong>
+          <small>Project sectors: residential & commercial</small>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 02: WHAT WE DO (ACCORDION WITH TAGS) -->
+    <section class="section services-wrap" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-topline">
+          <span class="eyebrow">WHAT WE DO</span>
+          <span class="topline-rule"></span>
+          <span class="section-number">02 / 04</span>
+        </div>
+        
+        <div class="heading-row">
+          <h2 id="services-title">SERVICES THAT<br><span class="gold-text">COVER THE DETAILS.</span></h2>
+          <p>From structural work to the finishing touches, explore the services listed in our company profile.</p>
+        </div>
+
+        <div class="service-list">
+          <details class="service" open>
+            <summary>
+              <span class="service-num">01</span>
+              <span class="service-name">Construction & Renovation</span>
+              <span class="plus-mark" aria-hidden="true"></span>
+            </summary>
+            <div class="service-body">
+              <p>Residential unit construction, design & build, renovations, roofing, gates and fences, civil works, M.E.P. works, drainage systems, wall bricks and pavers, road pavements, curbs and gutters, retaining walls, and tile and kitchen works.</p>
+              <div class="service-tags">
+                <span class="tag">Residential Construction</span>
+                <span class="tag">Design & Build</span>
+                <span class="tag">Civil Works</span>
+                <span class="tag">Roofing</span>
+                <span class="tag">Drainage & MEP</span>
+                <span class="tag">Gates & Retaining Walls</span>
+                <span class="tag">Tile & Kitchens</span>
+              </div>
+            </div>
+          </details>
+
+          <details class="service">
+            <summary>
+              <span class="service-num">02</span>
+              <span class="service-name">Interior Works</span>
+              <span class="plus-mark" aria-hidden="true"></span>
+            </summary>
+            <div class="service-body">
+              <p>Fit-out works, woodworks, bespoke joinery, cladding and panelling, flooring and walls, false ceiling installation, painting, gypsum works, and cabinet design and fabrication.</p>
+              <div class="service-tags">
+                <span class="tag">Fit-out Works</span>
+                <span class="tag">Bespoke Joinery</span>
+                <span class="tag">Woodworks</span>
+                <span class="tag">Wall Cladding</span>
+                <span class="tag">Flooring & Tiles</span>
+                <span class="tag">False Ceilings</span>
+                <span class="tag">Custom Cabinets</span>
+              </div>
+            </div>
+          </details>
+
+          <details class="service">
+            <summary>
+              <span class="service-num">03</span>
+              <span class="service-name">Exterior & Landscaping</span>
+              <span class="plus-mark" aria-hidden="true"></span>
+            </summary>
+            <div class="service-body">
+              <p>Grotto construction, waterfalls installation, wall and rustic design, rock gardens, vertical gardens, landscape floor design, bamboo fencing, and grass planting.</p>
+              <div class="service-tags">
+                <span class="tag">Rock Gardens</span>
+                <span class="tag">Vertical Gardens</span>
+                <span class="tag">Waterfall Installation</span>
+                <span class="tag">Grotto Construction</span>
+                <span class="tag">Bamboo Fencing</span>
+                <span class="tag">Turf & Grass Planting</span>
+                <span class="tag">Rustic Hardscaping</span>
+              </div>
+            </div>
+          </details>
+
+          <details class="service">
+            <summary>
+              <span class="service-num">04</span>
+              <span class="service-name">Specialized Works</span>
+              <span class="plus-mark" aria-hidden="true"></span>
+            </summary>
+            <div class="service-body">
+              <p>Glass, aluminum and steel works, lighting installation, branding identity, and signages.</p>
+              <div class="service-tags">
+                <span class="tag">Architectural Glass</span>
+                <span class="tag">Aluminum Framing</span>
+                <span class="tag">Steel Fabrication</span>
+                <span class="tag">Lighting Installation</span>
+                <span class="tag">Commercial Signages</span>
+                <span class="tag">Brand Identity Integration</span>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 03: OUR WORK / PORTFOLIO -->
+    <section class="section projects-section container" id="projects" aria-labelledby="projects-title">
+      <div class="section-topline">
+        <span class="eyebrow">OUR WORK</span>
+        <span class="topline-rule"></span>
+        <span class="section-number">03 / 04</span>
+      </div>
+      
+      <div class="heading-row">
+        <h2 id="projects-title">PROOF IN<br><span class="gold-text">THE PROJECTS.</span></h2>
+        <p>A selection of residential, commercial, and outdoor work from the company's 2023–2024 portfolio.</p>
+      </div>
+
+      <!-- Filter Chips -->
+      <div class="project-filter" role="group" aria-label="Filter projects">
+        <button class="filter active" type="button" data-filter="all" aria-pressed="true">All work</button>
+        <button class="filter" type="button" data-filter="residential" aria-pressed="false">Residential</button>
+        <button class="filter" type="button" data-filter="commercial" aria-pressed="false">Commercial</button>
+        <button class="filter" type="button" data-filter="outdoor" aria-pressed="false">Outdoor</button>
+      </div>
+
+      <!-- 6 Featured Project Cards -->
+      <div class="project-grid">
+        <button class="project-card" type="button" data-project="glass" data-category="residential" aria-label="View Glass House project photos">
+          <span class="project-image">
+            <img src="assets/glass-1.webp" alt="Glass House property facade with covered patio in Makati" loading="lazy" width="355" height="275">
+            <span class="project-pill">3 Photos</span>
+          </span>
+          <span class="project-meta">
+            <span class="project-label">RESIDENTIAL · 2024</span>
+            <strong>Glass House with Loft</strong>
+            <small>Makati, Metro Manila</small>
+          </span>
+          <span class="project-link" aria-hidden="true"><svg class="icon"><use href="#icon-arrow"></use></svg></span>
+        </button>
+
+        <button class="project-card" type="button" data-project="darkberry" data-category="commercial" aria-label="View Darkberry Cafe project photos">
+          <span class="project-image">
+            <img src="assets/darkberry-1.webp" alt="Darkberry Cafe storefront in Dasmariñas" loading="lazy" width="355" height="275">
+            <span class="project-pill">3 Photos</span>
+          </span>
+          <span class="project-meta">
+            <span class="project-label">COMMERCIAL · 2023</span>
+            <strong>Darkberry Cafe</strong>
+            <small>Dasmariñas, Cavite</small>
+          </span>
+          <span class="project-link" aria-hidden="true"><svg class="icon"><use href="#icon-arrow"></use></svg></span>
+        </button>
+
+        <button class="project-card" type="button" data-project="bellazone" data-category="residential" aria-label="View Bellazone Subdivision project photos">
+          <span class="project-image">
+            <img src="assets/bellazone-1.webp" alt="Completed covered carport at Bellazone Subdivision" loading="lazy" width="355" height="275">
+            <span class="project-pill">3 Photos</span>
+          </span>
+          <span class="project-meta">
+            <span class="project-label">RESIDENTIAL · 2023</span>
+            <strong>Bellazone Subdivision</strong>
+            <small>Bacoor, Cavite</small>
+          </span>
+          <span class="project-link" aria-hidden="true"><svg class="icon"><use href="#icon-arrow"></use></svg></span>
+        </button>
+
+        <button class="project-card" type="button" data-project="bolasco" data-category="outdoor" aria-label="View Bolasco Farm project photos">
+          <span class="project-image">
+            <img src="assets/bolasco-1.webp" alt="Bolasco Farm outdoor property with trees and a small cabin" loading="lazy" width="355" height="275">
+            <span class="project-pill">3 Photos</span>
+          </span>
+          <span class="project-meta">
+            <span class="project-label">OUTDOOR · 2023</span>
+            <strong>Bolasco Farm</strong>
+            <small>Angat, Bulacan</small>
+          </span>
+          <span class="project-link" aria-hidden="true"><svg class="icon"><use href="#icon-arrow"></use></svg></span>
+        </button>
+
+        <button class="project-card" type="button" data-project="cornerstone" data-category="residential" aria-label="View Cornerstone Executive Village project photos">
+          <span class="project-image">
+            <img src="assets/cornerstone-1.webp" alt="Cornerstone Executive Village residential exterior" loading="lazy" width="355" height="275">
+            <span class="project-pill">3 Photos</span>
+          </span>
+          <span class="project-meta">
+            <span class="project-label">RESIDENTIAL · 2023</span>
+            <strong>Cornerstone Executive Village</strong>
+            <small>Imus, Cavite</small>
+          </span>
+          <span class="project-link" aria-hidden="true"><svg class="icon"><use href="#icon-arrow"></use></svg></span>
+        </button>
+
+        <button class="project-card" type="button" data-project="taifini" data-category="commercial" aria-label="View Taifini industrial project photos">
+          <span class="project-image">
+            <img src="assets/taifini-1.webp" alt="Industrial interior project at Taifini Copper and Conductor Inc." loading="lazy" width="355" height="275">
+            <span class="project-pill">3 Photos</span>
+          </span>
+          <span class="project-meta">
+            <span class="project-label">COMMERCIAL · 2023</span>
+            <strong>Taifini Copper & Conductor</strong>
+            <small>Silang, Cavite</small>
+          </span>
+          <span class="project-link" aria-hidden="true"><svg class="icon"><use href="#icon-arrow"></use></svg></span>
+        </button>
+      </div>
+
+      <p class="project-footnote">Photos were extracted from the supplied company-profile materials. Project dates reflect the profile's labels.</p>
+    </section>
+
+    <!-- SECTION 04: LET'S TALK / CONTACT -->
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-inner">
+        <div class="section-topline">
+          <span class="eyebrow light">LET'S TALK</span>
+          <span class="topline-rule"></span>
+          <span class="section-number">04 / 04</span>
+        </div>
+
+        <div class="contact-heading">
+          <div>
+            <h2 id="contact-title">HAVE A PROJECT<br><span>IN MIND?</span></h2>
+            <p>Send us your project type, location, and a quick description. Our team can discuss the next steps with you.</p>
+          </div>
+          <a href="https://m.me/ambuilderslandscapingservices" target="_blank" rel="noopener noreferrer" class="button button-gold contact-cta">
+            <svg class="icon"><use href="#icon-message"></use></svg>
+            <span>Start an inquiry</span>
+            <svg class="icon small trailing"><use href="#icon-arrow"></use></svg>
+          </a>
+        </div>
+
+        <!-- Contact Detail Cards with 1-Tap Copy & Navigation -->
+        <div class="contact-details">
+          <div class="contact-detail">
+            <svg class="icon detail-icon"><use href="#icon-phone"></use></svg>
+            <div class="detail-body">
+              <small>CALL / MOBILE</small>
+              <div class="detail-row">
+                <a href="tel:+639914650889" class="phone-text">+63 991 465 0889</a>
+                <button type="button" class="copy-btn" data-copy="+639914650889" aria-label="Copy primary phone number">
+                  <svg class="icon tiny"><use href="#icon-copy"></use></svg>
+                </button>
+              </div>
+              <div class="detail-row">
+                <a href="tel:+639695235544" class="phone-text">+63 969 523 5544</a>
+                <button type="button" class="copy-btn" data-copy="+639695235544" aria-label="Copy secondary phone number">
+                  <svg class="icon tiny"><use href="#icon-copy"></use></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <svg class="icon detail-icon"><use href="#icon-mail"></use></svg>
+            <div class="detail-body">
+              <small>EMAIL</small>
+              <div class="detail-row">
+                <a href="mailto:ambuilderslandscapingservices@gmail.com?subject=Project%20Inquiry%20-%20A.M.%20Builders" class="email-text">ambuilderslandscapingservices@gmail.com</a>
+                <button type="button" class="copy-btn" data-copy="ambuilderslandscapingservices@gmail.com" aria-label="Copy email address">
+                  <svg class="icon tiny"><use href="#icon-copy"></use></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <svg class="icon detail-icon"><use href="#icon-pin"></use></svg>
+            <div class="detail-body">
+              <small>OFFICE ADDRESS</small>
+              <a href="https://www.google.com/maps/search/?api=1&query=Allegria+Phase+1+Barangay+San+Francisco+General+Trias+Cavite" target="_blank" rel="noopener noreferrer" class="address-link">
+                <strong>Allegria Phase 1, Brgy. San Francisco,<br>General Trias, Cavite</strong>
+                <span class="map-link-text">Open in Maps <svg class="icon tiny"><use href="#icon-external"></use></svg></span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-footer">
+          <div class="footer-brand-wrap">
+            <img src="assets/am-logo.png" alt="A.M. Builders & Landscaping Services" width="220" height="75">
+            <span>Construction · Renovation · Interiors · Landscaping</span>
+          </div>
+          <div class="footer-actions">
+            <a href="contact.vcf" download="AM-Builders-Contact.vcf" class="button button-outline-light button-sm">
+              <svg class="icon small"><use href="#icon-download"></use></svg> Save Contact (.vcf)
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <small>© <span id="year">2026</span> A.M. Builders & Landscaping Services. All rights reserved.</small>
+      <a href="#top" class="back-to-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <!-- Fixed Mobile Floating Action Bar with Glassmorphism -->
+  <nav class="mobile-cta" aria-label="Mobile quick actions">
+    <a href="tel:+639914650889" class="mobile-call" aria-label="Call A.M. Builders">
+      <svg class="icon"><use href="#icon-phone"></use></svg>
+      <span>Call</span>
+    </a>
+    <a href="https://m.me/ambuilderslandscapingservices" target="_blank" rel="noopener noreferrer" class="mobile-message">
+      <svg class="icon"><use href="#icon-message"></use></svg>
+      <span>Message our team</span>
+      <svg class="icon small trailing"><use href="#icon-arrow"></use></svg>
+    </a>
+    <a href="contact.vcf" download="AM-Builders-Contact.vcf" class="mobile-save" aria-label="Save contact to phone" id="mobile-vcf-btn">
+      <svg class="icon"><use href="#icon-download"></use></svg>
+    </a>
+  </nav>
+
+  <!-- Project Gallery Modal Dialog with Swipe Support & Project Inquiry -->
+  <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-top">
+      <div>
+        <p id="dialog-category" class="eyebrow">SELECTED WORK</p>
+        <h3 id="dialog-title">Project Name</h3>
+        <p id="dialog-location" class="dialog-sub"></p>
+      </div>
+      <button id="dialog-close" type="button" class="dialog-close" aria-label="Close photo gallery">
+        <svg class="icon"><use href="#icon-close"></use></svg>
+      </button>
+    </div>
+
+    <div class="dialog-stage" id="gallery-stage">
+      <button id="gallery-prev" type="button" class="gallery-nav prev" aria-label="Previous photograph">
+        <svg class="icon"><use href="#icon-chevron"></use></svg>
+      </button>
+      
+      <div class="photo-wrapper">
+        <img id="dialog-photo" src="assets/glass-1.webp" alt="Selected project photograph">
+      </div>
+      
+      <button id="gallery-next" type="button" class="gallery-nav next" aria-label="Next photograph">
+        <svg class="icon"><use href="#icon-chevron"></use></svg>
+      </button>
+    </div>
+
+    <!-- Dots & Caption -->
+    <div class="dialog-controls">
+      <div class="gallery-dots" id="gallery-dots" aria-label="Gallery slide indicators">
+        <button type="button" class="dot active" data-index="0" aria-label="Photo 1"></button>
+        <button type="button" class="dot" data-index="1" aria-label="Photo 2"></button>
+        <button type="button" class="dot" data-index="2" aria-label="Photo 3"></button>
+      </div>
+      <span id="gallery-count" class="gallery-count">1 / 3</span>
+    </div>
+
+    <div class="dialog-bottom">
+      <p id="dialog-description">From the A.M. Builders company project profile</p>
+      <a id="dialog-inquiry-btn" href="https://m.me/ambuilderslandscapingservices" target="_blank" rel="noopener noreferrer" class="button button-gold button-sm">
+        <svg class="icon small"><use href="#icon-message"></use></svg> Inquire About This Project
+      </a>
+    </div>
+  </dialog>
+
+  <!-- Share & QR Code Modal Dialog -->
+  <dialog class="qr-dialog" id="qr-dialog" aria-labelledby="qr-modal-title">
+    <div class="dialog-top">
+      <div>
+        <p class="eyebrow">DIGITAL BUSINESS CARD</p>
+        <h3 id="qr-modal-title">Share Contact Card</h3>
+      </div>
+      <button id="qr-dialog-close" type="button" class="dialog-close" aria-label="Close QR modal">
+        <svg class="icon"><use href="#icon-close"></use></svg>
+      </button>
+    </div>
+    
+    <div class="qr-content">
+      <div class="qr-frame">
+        <img src="assets/qr-code.svg" alt="A.M. Builders NFC Landing Page QR Code" class="qr-image" width="220" height="220">
+      </div>
+      <p class="qr-instruction">Scan with any smartphone camera to open this digital contact card directly.</p>
+      
+      <div class="qr-actions">
+        <button type="button" class="button button-gold" id="qr-share-native-btn">
+          <svg class="icon"><use href="#icon-share"></use></svg> Share via Phone
+        </button>
+        <button type="button" class="button button-outline" id="qr-copy-link-btn">
+          <svg class="icon"><use href="#icon-copy"></use></svg> Copy Card Link
+        </button>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Toast Notification Element -->
+  <div id="toast" class="toast" role="status" aria-live="polite">
+    <svg class="icon small toast-icon"><use href="#icon-check"></use></svg>
+    <span id="toast-message">Copied to clipboard!</span>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

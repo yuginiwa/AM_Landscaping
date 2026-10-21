@@ -1,0 +1,17 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//A.M. Builders & Landscaping Services//NFC Contact Landing//EN
+N:;A.M. Builders & Landscaping Services;;;
+FN:A.M. Builders & Landscaping Services
+ORG:A.M. Builders & Landscaping Services
+TITLE:General Contractor & Landscaping Services
+TEL;TYPE=CELL,VOICE,PREF:+639914650889
+TEL;TYPE=CELL,VOICE:+639695235544
+EMAIL;TYPE=INTERNET,WORK,PREF:ambuilderslandscapingservices@gmail.com
+ADR;TYPE=WORK,PREF:;;Allegria Phase 1\, Brgy. San Francisco;General Trias;Cavite;4107;Philippines
+URL;TYPE=WORK:https://ambuilderslandscapingservices.vercel.app
+URL;TYPE=FACEBOOK:https://www.facebook.com/ambuilderslandscapingservices/
+X-SOCIALPROFILE;TYPE=facebook:https://www.facebook.com/ambuilderslandscapingservices/
+NOTE:Construction\, renovation\, interior works\, landscaping & specialized works in Cavite\, Metro Manila & Southern Luzon. Founded by Engr. Annalyn Toledo & Engr. Cecil Martin Bajaro.
+CATEGORIES:Construction,Contractor,Renovation,Landscaping
+END:VCARD
